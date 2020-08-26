@@ -1,27 +1,50 @@
 PODS:
-  - CPush (0.1.0)
+  - Alamofire (4.9.1)
+  - CPush/Core (0.1.0):
+    - mob_pushsdk
+    - SnapKit
+  - CPush/Plan (0.1.0)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - mob_pushsdk (3.0.1):
+    - mob_pushsdk/MobPush (= 3.0.1)
+    - MOBFoundation
+  - mob_pushsdk/MobPush (3.0.1):
+    - MOBFoundation
+  - MOBFoundation (3.2.19)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
-  - CPush (from `../`)
+  - Alamofire (~> 4.9.1)
+  - CPush/Core (from `../`)
+  - CPush/Plan (from `../`)
   - FBSnapshotTestCase (~> 2.1.4)
+  - mob_pushsdk
+  - SnapKit (~> 4.2.0)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - FBSnapshotTestCase
+    - mob_pushsdk
+    - MOBFoundation
+    - SnapKit
 
 EXTERNAL SOURCES:
   CPush:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CPush: b9dfde97f4a642174dcd0446737901b3e8cbf3ae
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CPush: 65a65523e44153e5a1ef1e1f08bc5d0f27139b36
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  mob_pushsdk: 5f266bfce36dcfda9abf2651da898735cca7a725
+  MOBFoundation: 606bc4c10ff4c6ac573c09f5081a39c75316bc7b
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 1216183ddfcdf00a5007b4f80b58ef2f456c2f87
+PODFILE CHECKSUM: 70cc41b5c4e13143500d91f46b559c2201744ec0
 
 COCOAPODS: 1.9.3

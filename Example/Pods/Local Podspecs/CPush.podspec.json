@@ -16,7 +16,33 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "CPush/Classes/**/*"
+  "static_framework": true,
+  "default_subspecs": "Core",
+  "swift_versions": "5.1",
+  "subspecs": [
+    {
+      "name": "Plan",
+      "source_files": "CPush/Classes/Plan/**/*.swift"
+    },
+    {
+      "name": "Core",
+      "source_files": "CPush/Classes/Core/**/*.swift",
+      "resource_bundles": {
+        "CPush": [
+          "CPush/Assets/Core/*.{xib,json,png,plist,xcassets}"
+        ]
+      },
+      "dependencies": {
+        "SnapKit": [
+
+        ],
+        "mob_pushsdk": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.1"
 }

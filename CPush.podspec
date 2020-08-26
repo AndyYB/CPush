@@ -29,14 +29,22 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
-  s.source_files = 'CPush/Classes/Core/**/*'
+  s.static_framework = true
+  s.default_subspec = 'Core'
+  s.swift_version = '5.1'
   
-  # s.resource_bundles = {
-  #   'CPush' => ['CPush/Assets/*.png']
-  # }
+  s.subspec 'Plan' do |plan|
+      plan.source_files = 'CPush/Classes/Plan/**/*.swift'
+  end
+  
+  s.subspec 'Core' do |core|
+      core.source_files = 'CPush/Classes/Core/**/*.swift'
+    core.resource_bundles = {
+        'CPush' => ['CPush/Assets/Core/*.{xib,json,png,plist,xcassets}']
+    }
+    core.dependency 'SnapKit'
+    core.dependency 'mob_pushsdk'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  end
+
 end

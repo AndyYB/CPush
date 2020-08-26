@@ -1,0 +1,81 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  Alamofire:
+    BUILD_SETTINGS_CHECKSUM:
+      Alamofire:
+        :debug: f32db90b1412fffd50913bcc6ee70404
+        :release: f32db90b1412fffd50913bcc6ee70404
+    CHECKSUM: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+    PROJECT_NAME: Alamofire
+    SPECS:
+      - Alamofire (4.9.1)
+  CPush:
+    BUILD_SETTINGS_CHECKSUM:
+      CPush:
+        :debug: f552105efdc859462dae6c92bcf35a86
+        :release: f552105efdc859462dae6c92bcf35a86
+    CHECKSUM: 65a65523e44153e5a1ef1e1f08bc5d0f27139b36
+    FILES:
+      - "../../CPush/Classes/Core/CPushManager.swift"
+      - "../../CPush/Classes/Plan/CPushTestManager.swift"
+      - "../../LICENSE"
+      - "../../README.md"
+    PROJECT_NAME: CPush
+    SPECS:
+      - CPush/Core (0.1.0)
+      - CPush/Plan (0.1.0)
+  FBSnapshotTestCase:
+    BUILD_SETTINGS_CHECKSUM:
+      FBSnapshotTestCase:
+        :debug: d39e4092e95b4ac595d8a90972a0838d
+        :release: d39e4092e95b4ac595d8a90972a0838d
+    CHECKSUM: 094f9f314decbabe373b87cc339bea235a63e07a
+    PROJECT_NAME: FBSnapshotTestCase
+    SPECS:
+      - FBSnapshotTestCase (2.1.4)
+      - FBSnapshotTestCase/Core (2.1.4)
+      - FBSnapshotTestCase/SwiftSupport (2.1.4)
+  mob_pushsdk:
+    BUILD_SETTINGS_CHECKSUM:
+      mob_pushsdk:
+        :debug: d728d720d55f2e171a69e20f626fd974
+        :release: d728d720d55f2e171a69e20f626fd974
+    CHECKSUM: 5f266bfce36dcfda9abf2651da898735cca7a725
+    PROJECT_NAME: mob_pushsdk
+    SPECS:
+      - mob_pushsdk (3.0.1)
+      - mob_pushsdk/MobPush (3.0.1)
+  MOBFoundation:
+    BUILD_SETTINGS_CHECKSUM:
+      MOBFoundation:
+        :debug: 8001c5081cd2e202966b8fd995d1ddd9
+        :release: 8001c5081cd2e202966b8fd995d1ddd9
+    CHECKSUM: 606bc4c10ff4c6ac573c09f5081a39c75316bc7b
+    PROJECT_NAME: MOBFoundation
+    SPECS:
+      - MOBFoundation (3.2.19)
+  Pods-CPush_Example:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 224dddeca987161561208258d9b1f1bf
+      Release: 224dddeca987161561208258d9b1f1bf
+    FILES:
+      - "${PODS_CONFIGURATION_BUILD_DIR}/CPush/CPush.bundle"
+  Pods-CPush_Tests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 2ddef62055c05c859bbc4068f45fd431
+      Release: 2ddef62055c05c859bbc4068f45fd431
+  SnapKit:
+    BUILD_SETTINGS_CHECKSUM:
+      SnapKit:
+        :debug: d7d86d33ecdf86b2ddd5656c736608ea
+        :release: d7d86d33ecdf86b2ddd5656c736608ea
+    CHECKSUM: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+    PROJECT_NAME: SnapKit
+    SPECS:
+      - SnapKit (4.2.0)
+OBJECT_VERSION: 46
+PLUGINS:
+  cocoapods-stats:
+    {}

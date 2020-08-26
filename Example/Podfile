@@ -1,11 +1,23 @@
+source 'https://cdn.cocoapods.org/'
+source 'git@git.tutorabc.com:WT/SDK/iTutorSpecs.git'
+
 use_frameworks!
+platform :ios, '10.0'
+
+install! 'cocoapods',
+:generate_multiple_pod_projects => true,
+:incremental_installation => true
 
 target 'CPush_Example' do
-  pod 'CPush', :path => '../'
-
+  pod 'CPush/Core', :path => '../'
+  pod 'CPush/Plan', :path => '../'
+  
+  pod 'mob_pushsdk'
+  pod 'Alamofire', '~> 4.9.1'
+  pod 'SnapKit', '~> 4.2.0'
+  
   target 'CPush_Tests' do
     inherit! :search_paths
-
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
   end
 end
