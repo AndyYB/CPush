@@ -1,0 +1,6 @@
+framework module CPush {
+  umbrella header "CPush-umbrella.h"
+
+  export *
+  module * { export * }
+}
