@@ -12,19 +12,20 @@
 		511379A8E91F8C72CAEFA8462607CCBF /* CPush-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C3B13208DC417F91336E0D187AFCDA /* CPush-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		680565FF9EB707BCAE7C1A4C4D32347F /* CPush-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2155508A74D03477308A154E54CCD725 /* CPush-dummy.m */; };
 		99944D9E6A80CFA717BF2B2C3B73F16E /* CPushManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13308167CE5D3F5BD8F9D4CEEA47891 /* CPushManager.swift */; };
+		F126553624F66BC300A70C6D /* UIWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F126553524F66BC300A70C6D /* UIWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		117B12B21B4C2D5F1220A898A40DDA9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 07A0DB4CE11F3A5CCB6BE176B9180D82 /* mob_pushsdk.xcodeproj */;
+			containerPortal = 07A0DB4CE11F3A5CCB6BE176B9180D82 /* mob_pushsdk */;
 			proxyType = 1;
 			remoteGlobalIDString = 95E51283F29182DD684F939C2AC91EFA;
 			remoteInfo = mob_pushsdk;
 		};
 		7521D37C27402E779238D281608EB633 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0416B26854754E805DF3696D8DD176AF /* SnapKit.xcodeproj */;
+			containerPortal = 0416B26854754E805DF3696D8DD176AF /* SnapKit */;
 			proxyType = 1;
 			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
 			remoteInfo = SnapKit;
@@ -36,6 +37,13 @@
 			remoteGlobalIDString = B9D3F84E9E3217F226DB9AE17B942BB8;
 			remoteInfo = "CPush-CPush";
 		};
+		F126553724F66BC400A70C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0416B26854754E805DF3696D8DD176AF /* SnapKit */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C869FDCB01928EA1213A88708602ED9;
+			remoteInfo = SnapKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -44,19 +52,20 @@
 		07A0DB4CE11F3A5CCB6BE176B9180D82 /* mob_pushsdk */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mob_pushsdk; path = mob_pushsdk.xcodeproj; sourceTree = "<group>"; };
 		0A61F2D55E2E87E8DE6D8DEBE8347129 /* CPush.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CPush.modulemap; sourceTree = "<group>"; };
 		11307FDDBBD2D5B8BF7B197C9D782AF7 /* CPush-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPush-prefix.pch"; sourceTree = "<group>"; };
-		208F211CA5C1CB5604E6F19A97BC1BCF /* CPush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CPush.framework; path = CPush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		208F211CA5C1CB5604E6F19A97BC1BCF /* CPush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2155508A74D03477308A154E54CCD725 /* CPush-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPush-dummy.m"; sourceTree = "<group>"; };
-		80DA6379F13CD527FC9C776292BC3A46 /* CPush.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CPush.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		86B4D89F0DA1FC186C76DA22677B94C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		80DA6379F13CD527FC9C776292BC3A46 /* CPush.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CPush.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86B4D89F0DA1FC186C76DA22677B94C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		91F201B856B7D2661E3C4F710D403905 /* ResourceBundle-CPush-CPush-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CPush-CPush-Info.plist"; sourceTree = "<group>"; };
 		92C3B13208DC417F91336E0D187AFCDA /* CPush-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPush-umbrella.h"; sourceTree = "<group>"; };
-		974A13CFBAD80AEB9D8B99834AB34A31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		974A13CFBAD80AEB9D8B99834AB34A31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AEC24DC0CA83DDD3DD2528AE38264ED4 /* CPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPush.release.xcconfig; sourceTree = "<group>"; };
 		B13308167CE5D3F5BD8F9D4CEEA47891 /* CPushManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CPushManager.swift; path = CPush/Classes/Core/CPushManager.swift; sourceTree = "<group>"; };
 		BFD58DE9F357E10CCEB4E8C8B6310164 /* CPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPush.debug.xcconfig; sourceTree = "<group>"; };
 		D29707BACBDF0D069D27BF6103C02D12 /* CPush-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CPush-Info.plist"; sourceTree = "<group>"; };
 		D5DF16F657338340C6F5C06D715CAAA3 /* CPushTestManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CPushTestManager.swift; path = CPush/Classes/Plan/CPushTestManager.swift; sourceTree = "<group>"; };
-		DDAAB28590F552C94C873A5CB1A75714 /* CPush.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CPush.bundle; path = "CPush-CPush.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAAB28590F552C94C873A5CB1A75714 /* CPush.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPush.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F126553524F66BC300A70C6D /* UIWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				B13308167CE5D3F5BD8F9D4CEEA47891 /* CPushManager.swift */,
+				F126553524F66BC300A70C6D /* UIWebViewController.swift */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -174,6 +184,21 @@
 				05A70B59B858E9AA604213D8D5970D5E /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F126553124F6660B00A70C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F126553324F6660B00A70C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F126553824F66BC400A70C6D /* SnapKit.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,10 +275,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = 0416B26854754E805DF3696D8DD176AF /* SnapKit */;
+					ProductGroup = F126553124F6660B00A70C6D /* Products */;
+					ProjectRef = 07A0DB4CE11F3A5CCB6BE176B9180D82 /* mob_pushsdk */;
 				},
 				{
-					ProjectRef = 07A0DB4CE11F3A5CCB6BE176B9180D82 /* mob_pushsdk */;
+					ProductGroup = F126553324F6660B00A70C6D /* Products */;
+					ProjectRef = 0416B26854754E805DF3696D8DD176AF /* SnapKit */;
 				},
 			);
 			projectRoot = "";
@@ -263,6 +290,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F126553824F66BC400A70C6D /* SnapKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SnapKit.framework;
+			remoteRef = F126553724F66BC400A70C6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4A16DF625D9637B5E542B3295391E5F9 /* Resources */ = {
@@ -296,6 +333,7 @@
 				680565FF9EB707BCAE7C1A4C4D32347F /* CPush-dummy.m in Sources */,
 				99944D9E6A80CFA717BF2B2C3B73F16E /* CPushManager.swift in Sources */,
 				45A3331A5147F9AC59251BA49A1A28C1 /* CPushTestManager.swift in Sources */,
+				F126553624F66BC300A70C6D /* UIWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,8 +544,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
